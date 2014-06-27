@@ -98,7 +98,6 @@ module.exports = (grunt) ->
                     branch: 'gh-pages'
 
 
-
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)
 
@@ -125,7 +124,7 @@ module.exports = (grunt) ->
         ]
 
     grunt.registerTask 'server',
-        'Run presentation locally and start watch process (living document).', [
+        'Run presentation locally and start watch process (living document)', [
             'buildIndex'
             'connect:livereload'
             'watch'
