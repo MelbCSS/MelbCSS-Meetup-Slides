@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "MelbCSS",
+    "packageVersion": "0.0.0",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "ryanmargheriti",
+    "githubRepository": "MelbCSS"
+  }
+}
