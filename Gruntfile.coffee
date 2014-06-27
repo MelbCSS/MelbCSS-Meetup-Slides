@@ -94,7 +94,7 @@ module.exports = (grunt) ->
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:ryanmargheriti/MelbCSS.git'
+                    remote: 'git@github.com'
                     branch: 'gh-pages'
 
 
