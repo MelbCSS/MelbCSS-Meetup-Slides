@@ -2,27 +2,38 @@ body {
   background: #e8e8e8;
   color: #000;
   font-family: "museo-sans-rounded";
-  font-weight: 700;
   font-size: 55px;
 }
-h1 {
-  font-size: 1em;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.reveal h1 {
   color: #de5c26;
+  font-weight: 300;
+  padding: 0 5%;
+  font-size: 1.7em;
 }
-.controls {
+.reveal h2 {
+  font-size: .8em;
+  font-weight: 400;
+  margin-top: 1em;
+  color: #1abab3;
+}
+.reveal .controls {
   display: none;
 }
-.progress span {
-  background: #1abab3;
+.reveal .progress span {
+  background: #de5c26;
 }
-.logo,
-.sponsor-logo {
+.reveal .logo,
+.reveal .sponsor-logo {
   width: 80%;
+}
+.reveal .tagline {
+  margin-top: 1em;
+  font-size: .6em;
+  line-height: 1.6;
+}
+.reveal .tagline .fineprint {
+  font-weight: 200;
+  color: #666;
+  display: block;
+  font-size: .6em;
 }

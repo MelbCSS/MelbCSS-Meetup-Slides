@@ -1,40 +1,55 @@
 // Colors
 // -----------------------------------------
   @brand-color:  #de5c26;
-  @@brand-color: #1abab3;
+  @accent-color: #1abab3;
 
 body {
   background: #e8e8e8;
   color: #000;
   font-family: "museo-sans-rounded";
-  font-weight: 700;
   font-size: 55px;
 }
+.reveal {
 
-h1 {
-  font-size: 1em;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: @brand-color;
-}
-
-.controls {
-  display: none;
-}
-
-.progress {
-  span  {
-    background: @brand-color;
+  h1 {
+    color: @brand-color;
+    font-weight: 300;
+    padding: 0 5%;
+    font-size: 1.7em;
   }
-}
 
-.logo,
-.sponsor-logo {
-  width: 80%;
+  h2 {
+    font-size: .8em;
+    font-weight: 400;
+    margin-top: 1em;
+    color: @accent-color;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .progress {
+    span  {
+      background: @brand-color;
+    }
+  }
+
+  .logo,
+  .sponsor-logo {
+    width: 80%;
+  }
+
+  .tagline {
+    margin-top: 1em;
+    font-size: .6em;
+    line-height: 1.6;
+
+    .fineprint {
+      font-weight: 200;
+      color: #666;
+      display: block;
+      font-size: .6em;
+    }
+  }
 }
