@@ -1,7 +1,13 @@
+// Colors
+// -----------------------------------------
+  @brand-color:  #de5c26;
+  @@brand-color: #1abab3;
+
 body {
   background: #e8e8e8;
   color: #000;
   font-family: "museo-sans-rounded";
+  font-weight: 700;
   font-size: 55px;
 }
 
@@ -9,6 +15,26 @@ h1 {
   font-size: 1em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: @brand-color;
+}
+
+.controls {
+  display: none;
+}
+
+.progress {
+  span  {
+    background: @brand-color;
+  }
+}
+
+.logo,
 .sponsor-logo {
   width: 80%;
 }

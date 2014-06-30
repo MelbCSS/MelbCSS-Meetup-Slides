@@ -1,1 +1,1 @@
-# MelbCSS
+<img src="../img/logo_melbcss.svg" class="logo">
