@@ -6,9 +6,11 @@ body {
 }
 .reveal h1 {
   color: #de5c26;
-  font-weight: 300;
+  font-weight: bold;
   padding: 0 5%;
   font-size: 1.7em;
+  margin-bottom: 1.5em;
+  margin-top: -2em;
 }
 .reveal h2 {
   font-size: .8em;
